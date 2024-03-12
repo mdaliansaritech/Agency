@@ -1,0 +1,123 @@
+/* 
+***********************
+h1:  72/80 px
+h2:  56/64 px
+h3:  40/48 px
+h4:  24/32 px
+h5: 16/32 px
+label: 12/auto px
+big-text: 20/32 px
+text: 16/32 px
+small-text: 14/24 px 
+***********************
+***********************
+text-dark: #391400
+text-dark-accent: //
+text-dark-grey: #391400A3 64%
+text-light: #fff
+text-light-accent: #EF6D58
+text-light-grey: //
+ background: #28293E
+background-color: #FDF0E9
+icon: #EF6C57
+
+***********************
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --text-dark: #391400;
+  --text-dark-grey: #391400a3;
+  --text-light: #fff;
+  --text-light-accent: #ef6d58;
+  --hero-background: #28293e;
+  --background-color: #fdf0e9;
+  --icon: #ef6c57;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  background-color: var(--background-color);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--hero-background);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  align-items: center;
+  height: 5rem;
+  padding: 0 3.2rem;
+  /* background-color: vsar(--hero-background); */
+}
+
+.nav-cta {
+  justify-content: space-between;
+  margin-left: 6rem;
+}
+.logo {
+  height: 2.4rem;
+}
+.main-nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-decoration: none;
+  gap: 5.2rem;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.nav-cta.main-nav-link {
+  letter-spacing: 0.1rem;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #fdf0e9;
+}
+
+.nav-cta.main-nav-link:link,
+.nav-cta.main-nav-link:visited {
+  padding: 0.7rem 2.4rem;
+  border: 0.1px solid #fff;
+  border-radius: 11px;
+  color: #fff;
+}
+.nav-cta.main-nav-link:hover,
+.nav-cta.main-nav-link:active {
+  color: #fdf0e9;
+}
+.grid {
+  display: grid;
+  /* column-gap: 6.4rem; */
+  row-gap: 9.6rem;
+}
+.grid-1-cols {
+  grid-template-columns: 1fr;
+}
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
