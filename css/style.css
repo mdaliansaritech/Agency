@@ -89,10 +89,7 @@
 .featured-in {
   padding: 5rem 4.8rem;
 }
-.border-bottom {
-  border-bottom: 1px solid #ffd7d1;
-  margin-top: 3.2rem;
-}
+
 /* ******************************** */
 /* ABOUT US  */
 /* ******************************** */
@@ -196,4 +193,46 @@
   align-self: center;
   padding-right: 2.4rem;
   padding-left: 2.4rem;
+}
+/* ********************************* */
+/* REEL SECTION */
+/* ********************************* */
+.reel {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 5.6rem 7.2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6rem;
+  align-items: center;
+}
+
+.feature {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 5.6rem 7.2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6rem;
+  align-items: center;
+}
+.feature-text-box p {
+  color: var(--text-dark);
+  margin-top: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+.feature-icon {
+  fill: var(--icon);
+  padding: 0.2rem;
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+}
+.feature-text-box .feature-icon-text {
+  font-size: 1.2rem;
+  color: var(--text-dark-grey);
+  display: flex;
+  align-items: center;
 }

@@ -59,6 +59,15 @@ body {
   /* background-color: vsar(--hero-background); */
 }
 
+.border-bottom {
+  border-bottom: 1px solid #ffd7d1;
+  margin-top: 3.2rem;
+}
+.abt .border-bottom {
+  border-bottom: 1px solid #ffd7d1;
+  margin-top: -3.2rem;
+}
+
 .nav-cta {
   justify-content: space-between;
   margin-left: 6rem;
