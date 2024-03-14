@@ -261,21 +261,26 @@
 .feature-info p {
   font-size: 1rem;
   font-weight: 400;
-  margin: 2rem 1rem;
+  margin: 2rem 2rem;
 }
 .feature-info h4 {
   text-align: start;
+  margin: 2rem 2rem;
   padding: 0;
-  margin: 2rem 1rem;
 }
 .feature-info {
   overflow: hidden;
   transition: all 0.4s;
 }
 .feature-info:hover {
-  transform: translateY(-4rem 4rem);
-
   border: 2px solid #ffd7d1;
   background-color: #fff;
   border: none;
+}
+.feature-icon-prof {
+  color: #fff;
+  background-color: var(--icon);
+  padding: 1rem 1rem;
+  border-radius: 58%;
+  margin: 4rem 2rem;
 }
