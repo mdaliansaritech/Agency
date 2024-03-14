@@ -248,6 +248,12 @@
   gap: 6rem;
   align-items: center;
 }
+.second-text-box {
+  font-size: 1.2rem;
+  color: var(--text-dark-grey);
+
+  align-items: center;
+}
 .feature-hover {
   /* margin: 5.2rem; */
   border: 2px solid #ffd7d1;
@@ -269,6 +275,7 @@
   padding: 0;
 }
 .feature-info {
+  padding: 1rem;
   overflow: hidden;
   transition: all 0.4s;
 }
