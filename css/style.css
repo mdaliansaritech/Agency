@@ -291,3 +291,113 @@
   border-radius: 58%;
   margin: 4rem 2rem;
 }
+/* ****************************** */
+/* SERVICE SECTION */
+/* ****************************** */
+.service {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 5.6rem 7.2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6rem;
+  align-items: center;
+}
+.test-md {
+  display: flex;
+  gap: 2.4rem;
+  margin-top: 2rem;
+}
+.test-md img {
+  width: 3.2rem;
+  height: 3.2rem;
+
+  transform: translate(0.9rem, 0.7rem);
+}
+.test-md p {
+  line-height: 1rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-dark-grey);
+  margin-bottom: 0.5rem;
+}
+.jenny {
+  margin-top: 0.1rem;
+  font-size: 1rem;
+  margin-left: 5.6rem;
+}
+.second-service {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 5.6rem 7.2rem;
+  gap: 6rem;
+  align-items: center;
+}
+.agenies-help {
+  border: 2px solid #ffd7d1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+}
+.help {
+  border-right: 2px solid #ffd7d1;
+}
+.help:nth-child(3) {
+  border: none;
+}
+.service-text {
+  font-size: 1rem;
+  color: var(--text-dark-grey);
+  font-weight: 400;
+  margin: 2rem 2rem;
+  margin-bottom: 0;
+}
+.help h4 {
+  font-size: 1.4rem;
+  text-align: start;
+  margin: 2rem 2rem;
+  padding: 0;
+}
+.btn--service {
+  color: var(--text-dark);
+  margin: 0;
+  font-size: 1rem;
+}
+.service-icon {
+  color: #fff;
+  background-color: var(--icon);
+  border-radius: 50%;
+  width: 1.4rem;
+  height: 1.4rem;
+  padding: 1.4rem;
+  margin: 2rem 2rem;
+}
+/* ******************************* */
+/* portfolio SECTION */
+/* ******************************* */
+/*
+.portfolio-section {
+  background-color: var(--hero-background);
+  text-align: center;
+}
+
+.portfolio-nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 400;
+  gap: 5.2rem;
+  margin: 4rem;
+  margin-left: 20rem;
+}
+.portfolio-nav-link:link,
+.portfolio-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+*/
