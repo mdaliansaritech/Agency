@@ -1,0 +1,110 @@
+/* ******************************************** */
+/* BELOW 550PX MOBILE NAVIGATION */
+/* ******************************************** */
+@media (max-width: 34rem) {
+  .hero {
+    grid-template-columns: 1fr;
+    width: 54rem;
+    background-color: var(--hero-background);
+  }
+  .hero img {
+    width: 80%;
+  }
+  .btn-nav-mobile {
+    display: block;
+  }
+  .main-nav {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100%);
+    /* HIDE NAV FORMOBILE */
+    /* display: none; */
+
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .featured-in img {
+    width: 85%;
+  }
+  .about {
+    grid-template-columns: 1fr;
+  }
+  .section-how {
+    grid-template-columns: 1fr;
+  }
+  .feature {
+    grid-template-columns: 1fr;
+  }
+  .second-feature {
+    grid-template-columns: 1fr;
+  }
+  .reel {
+    grid-template-columns: 1fr;
+  }
+  .service {
+    grid-template-columns: 1fr;
+  }
+  .second-service {
+    padding: 2rem;
+  }
+  .portfilio {
+    grid-template-columns: 1fr;
+  }
+  .portfolio-nav-list {
+    gap: 1.6rem;
+  }
+  .designs img {
+    width: 80%;
+    height: 20rem;
+  }
+  .agenies-help {
+    grid-template-columns: 1fr;
+    width: 24rem;
+  }
+  .help {
+    border-right: none;
+  }
+  .started {
+    height: 70rem;
+    border-radius: 9px;
+    padding: 2rem;
+    background-color: #ffd7d1;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    justify-items: center;
+  }
+  .started-text-box {
+    padding: 2rem;
+  }
+  .started-text-box a {
+    margin: 0;
+    padding: 1rem 2rem;
+  }
+  .started-text-box img {
+    height: 5rem;
+  }
+  .started-text-box h2 {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+  .started-text-box h5 {
+    padding: 0;
+    font-size: 0.9rem;
+  }
+  .started-imgone-box {
+  }
+  .started-imgtwo-box {
+  }
+  .started-imgone-box {
+    height: 16rem;
+  }
+}

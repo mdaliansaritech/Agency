@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="./css/queries.css"> 
+     <script defer src="./JS/script.js"></script> 
     <title>Agency</title>
   </head>
   <body>
@@ -17,8 +19,8 @@
         </a>
         <nav class="main-nav">
           <ul class="main-nav-list">
-            <li><a class="main-nav-link" href="#">About</a></li>
-            <li><a class="main-nav-link" href="#">Services</a></li>
+            <li><a class="main-nav-link" href="#about">About</a></li>
+            <li><a class="main-nav-link" href="#service">Services</a></li>
             <li>
               <a class="main-nav-link" href="#">Pricing</a>
             </li>
@@ -28,6 +30,10 @@
             </li>
           </ul>
         </nav>
+        <button class="btn-nav-mobile">
+          <ion-icon class="icon-nav-mobile" name="menu-outline"></ion-icon>
+          <!-- <ion-icon class="icon-nav-mobile" name="close-outline"></ion-icon> -->
+        </button>
       </header>
       <main>
         <section class="hero-section">
@@ -67,7 +73,7 @@
             <img src="./Assest/img/pi8c.png" alt="image related to aabout section">
           </div>
           <div class="abt-text-box">
-            <h5 class="sub-heading">About</h5>
+            <h5 class="sub-heading" id="about">About</h5>
             <h2 class="secondary-heading">
               An Experience design Agency
             </h2>
@@ -95,7 +101,7 @@
               </div>
             </div>
           </section>
-          <section class="section-how">
+          <section class="section-how"  id="how-we-work">
             <div class="how-text-box">
               <h5 class="sub-heading">How we work</h5>
               <h2 class="secondary-heading">
@@ -125,7 +131,7 @@
           </section>
           <section class="reel">
             <div class="reel-img-box">
-              <iframe class="yt-reel" width="550" height="315" src="https://www.youtube.com/embed/Kqu8uokTT2g?si=Xs3EFBd8TMjpMb_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe width="550" height="315" src="https://www.youtube.com/embed/CQZxeoQeo5c?si=Y1oUUa9vXrSzaM1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="reel-text-box">
               <h5 class="sub-heading">Reel</h5>
@@ -145,7 +151,7 @@
                 Give Your Site A New Look
               </h2>
               <p>Service range including technical skills, design, business understanding.</p>
-            <p class="feature-icon-text"><ion-icon  class="feature-icon" name="checkmark-circle"></ion-icon>Range including technical skills</p>
+            <p class="feature-icon-text first-child"><ion-icon  class="feature-icon" name="checkmark-circle"></ion-icon>Range including technical skills</p>
             <p class="feature-icon-text"><ion-icon  class="feature-icon" name="checkmark-circle"></ion-icon>Business understanding</p>
             <p class="feature-icon-text"><ion-icon  class="feature-icon" name="checkmark-circle"></ion-icon>Partner on the long run</p>
             </div>
@@ -177,9 +183,9 @@
               </div>
             </div>
           </section>
-          <section class="service">
-            <div class="service-text-box">
-              <img src="./Assest/img/pic.2.png" alt="image related to aabout section">
+          <section class="service" id="service">
+            <div class="service-img-box">
+              <img class="img-box" src="./Assest/img/pic.2.png" alt="image related to aabout section">
             </div>
             <div class="service-text-box">
               <h5 class="sub-heading">Service</h5>
@@ -189,7 +195,7 @@
                </h2>
                  <p>Agency provides a full service range including technical skills, design, business.</p>
              <div class="test-md">
-               <img src="./Assest/bitmap/Bitmap.2.png" alt="" />
+               <img  src="./Assest/bitmap/Bitmap.2.png" alt="" />
                <p>"Understanding, ability to put themselves in the merchant's shoes. It is meant to partner."</p>
               </div>
                <p  class="jenny">Jenny Murtaugh</p>
@@ -228,7 +234,7 @@
           </section>
           <div class="container">
 
-            <section class="portfolio">
+            <section class="portfolio" >
               <div class="portfolio-section">
                 <h5 class="sub-heading">portfolio</h5>
                 <h1 class="primary-heading">Latest Work</h1>
@@ -256,18 +262,50 @@
             </section>
             <section class="get-started">
               <div class="started">
-              <div class="started-text-box">
+               <div class="started-text-box">
                 <img src="./Assest/block/icon.png" alt="">
                 <h5 class="sub-heading">get started</h5>
-                <h2 class="secondary-heading"> we Help Companies Move Faster</h2>
+                <h2 class="secondary-heading"> We Help Companies Move Faster</h2>
                 <a class="btn btn--full" href="#">CONTACT US</a>
-              </div>
-              <div class="started-imgone-box"><img src="./Assest/block/block.png" alt=""></div>
-              <div class="started-imgtwo-box"><img src="./Assest/block/Bitmap.png" alt=""></div>
+               </div>
+                <div class="started-imgone-box"><img src="./Assest/block/block.png" alt=""></div>
+                <div class="started-imgtwo-box"><img src="./Assest/block/Bitmap.png" alt=""></div>
               </div>
             </section>
           </div>
-          
+          <section class="section-footer grid grid-4-cols">
+            <div class="footer">
+              <h3>Agency</h3>
+            </div>
+            <div class="footer">
+              <h5 class="sub-heading">menu</h5>
+              <p>About</p>
+              <p>Service</p>
+              <p>Blog</p>
+              <p>Contact</p>
+            </div>
+            <div class="footer">
+              <h5 class="sub-heading">Service</h5>
+              <p>Design</p>
+              <p>Development</p>
+              <p>Marketing</p>
+              <p>See More</p>
+            </div>
+            <div class="footer">
+              <ion-icon  class="footer-icon" name="logo-facebook"></ion-icon>
+              <ion-icon  class="footer-icon" name="logo-twitter"></ion-icon>
+              <ion-icon  class="footer-icon" name="logo-youtube"></ion-icon>
+            </div>
+           
+          </section>
+          <div class="border-bottom"></div>
+          <section class="secondary-footer grid grid-3-cols">
+            <footer>Copyright © 2022 Laaqiq. All Rights Reserved.</footer>
+            <div>
+              <p>Terms of use </p>
+              <p>Privacy policy</p>
+        </div>
+          </section>
       </main>
 
 

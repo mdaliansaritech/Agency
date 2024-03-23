@@ -37,6 +37,9 @@ icon: #EF6C57
   --background-color: #fdf0e9;
   --icon: #ef6c57;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Epilogue", sans-serif;
