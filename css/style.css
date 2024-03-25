@@ -342,7 +342,7 @@
   max-width: 130rem;
   margin: 0 auto;
   padding: 5.6rem 7.2rem;
-  gap: 6rem;
+  display: grid;
   align-items: center;
 }
 .agenies-help {

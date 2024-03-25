@@ -52,26 +52,30 @@
     width: 100%;
   }
   .about {
+    width: 65.9rem;
     grid-template-columns: 1fr;
   }
   .section-how {
+    width: 65.9rem;
     grid-template-columns: 1fr;
   }
   .feature {
+    width: 65.9rem;
     grid-template-columns: 1fr;
   }
   .second-feature {
+    width: 65.9rem;
     grid-template-columns: 1fr;
   }
   .reel {
+    width: 65.9rem;
     grid-template-columns: 1fr;
   }
   .service {
+    width: 65.9rem;
     grid-template-columns: 1fr;
   }
-  .second-service {
-    padding: 2rem;
-  }
+
   .portfilio {
     width: 61rem;
   }
@@ -90,13 +94,23 @@
   .designs img:hover {
     transform: scale(1.04);
   }
+  .second-service {
+    width: 65.9rem;
+  }
   .agenies-help {
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr 2fr 2fr;
     width: 24rem;
   }
   .help {
     border-right: none;
   }
+  /*   .second-service {
+    width: 65.9rem;
+  }
+  .agencies-help {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  } */
   .started {
     width: 40rem;
     height: 80rem;
@@ -141,4 +155,10 @@
   .started-imgone-box {
     height: 16rem;
   }
+}
+section-footer {
+  width: 65.9rem;
+}
+secondary-footer {
+  width: 65.9rem;
 }
