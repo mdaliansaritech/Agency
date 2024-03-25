@@ -1,11 +1,25 @@
 /* ******************************************** */
 /* BELOW 550PX MOBILE NAVIGATION */
 /* ******************************************** */
-@media (max-width: 34rem) {
+@media (max-width: 45rem) {
+  body {
+    width: 45rem;
+  }
+  .container {
+    width: 65.9rem;
+  }
+  .header {
+    width: 65.9rem;
+    background-color: var(--hero-background);
+  }
+  .hero-section {
+    /* width: 61rem; */
+  }
   .hero {
     grid-template-columns: 1fr;
-    width: 54rem;
+    width: 61rem;
     background-color: var(--hero-background);
+    text-align: center;
   }
   .hero img {
     width: 80%;
@@ -31,8 +45,11 @@
     pointer-events: none;
     visibility: hidden;
   }
+  .featured-in {
+    width: 65.9rem;
+  }
   .featured-in img {
-    width: 85%;
+    width: 100%;
   }
   .about {
     grid-template-columns: 1fr;
@@ -56,14 +73,22 @@
     padding: 2rem;
   }
   .portfilio {
-    grid-template-columns: 1fr;
+    width: 61rem;
   }
   .portfolio-nav-list {
-    gap: 1.6rem;
+    gap: 4rem;
+  }
+  .designs {
+    overflow: hidden;
+    padding: 1rem 2rem;
   }
   .designs img {
     width: 80%;
-    height: 20rem;
+    height: 30rem;
+    transition: all 0.3s;
+  }
+  .designs img:hover {
+    transform: scale(1.04);
   }
   .agenies-help {
     grid-template-columns: 1fr;
@@ -73,17 +98,23 @@
     border-right: none;
   }
   .started {
-    height: 70rem;
+    width: 40rem;
+    height: 80rem;
     border-radius: 9px;
     padding: 2rem;
     background-color: #ffd7d1;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 3rem;
+
     justify-items: center;
   }
+  .started-text-box img {
+    transform: translateY(-7.5rem);
+  }
+
   .started-text-box {
     padding: 2rem;
+    transform: translateY(1.2rem);
   }
   .started-text-box a {
     margin: 0;
@@ -93,16 +124,19 @@
     height: 5rem;
   }
   .started-text-box h2 {
-    font-size: 1.2rem;
-    line-height: 1.4rem;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    padding-bottom: 2rem;
   }
   .started-text-box h5 {
-    padding: 0;
-    font-size: 0.9rem;
+    padding-bottom: 2rem;
+    font-size: 1.6rem;
   }
   .started-imgone-box {
+    transform: translateY(1rem);
   }
   .started-imgtwo-box {
+    transform: translateY(-3.5rem);
   }
   .started-imgone-box {
     height: 16rem;
