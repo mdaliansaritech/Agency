@@ -2,9 +2,12 @@
 /* BELOW 550PX MOBILE NAVIGATION */
 /* ******************************************** */
 @media (max-width: 45rem) {
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
   .logo {
     width: 20rem;
     height: 6rem;
+    padding-left: 2rem;
   }
   .icon-nav-mobile {
     width: 16rem;
@@ -12,14 +15,44 @@
   }
   .sub-heading {
     font-size: 2rem;
+    padding-bottom: 3rem;
   }
   .primary-heading {
     font-size: 6rem;
     line-height: 6rem;
   }
+  .secondary-heading {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+  .forth-heading {
+    font-size: 2rem;
+  }
+  .abt-text-box p {
+    font-size: 2rem;
+  }
   .hero-text {
     font-size: 1.6rem;
   }
+  .btn--full {
+    padding: 2rem 3rem;
+  }
+  .btn--full:link,
+  .btn--full:visited {
+    font-size: 2rem;
+  }
+  .btn--outline {
+    font-size: 2rem;
+  }
+  .test-sm {
+    justify-content: center;
+  }
+
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
+
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
 
   body {
     width: 45rem;
@@ -29,12 +62,15 @@
     width: 65.9rem;
   }
   .header {
+    gap: 4rem;
     width: 65.9rem;
     background-color: var(--hero-background);
     padding: 0;
   }
 
   .hero {
+    padding-top: 4rem;
+    transform: translateX(-2.5rem);
     grid-template-columns: 1fr;
     width: 61rem;
     background-color: var(--hero-background);
@@ -70,36 +106,136 @@
   .featured-in img {
     width: 100%;
   }
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
+
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
   .about {
     width: 65.9rem;
     grid-template-columns: 1fr;
+
+    justify-content: center;
   }
+  .abt-text {
+    font-size: 1.3rem;
+  }
+  .btn--abt:link,
+  .btn--abt:visited {
+    padding: 1.5rem 3rem;
+    font-size: 2rem;
+  }
+
+  .abt-info {
+    margin: 0rem;
+    /* padding: 4rem 3.2rem; */
+    border: 2px solid #ffd7d1;
+    transform: translateX(10rem);
+  }
+  .info {
+    border-right: 2px solid #ffd7d1;
+  }
+  .info:nth-child(3) {
+    border: none;
+  }
+  .info h3 {
+    padding-top: 1.8rem;
+    padding-left: 1.8rem;
+    margin-bottom: 0.1rem;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .info p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 1.8rem 1.8rem;
+  }
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
+
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
   .section-how {
+    padding-top: 20rem;
     width: 65.9rem;
     grid-template-columns: 1fr;
   }
+  .btn--how {
+    font-size: 2rem;
+  }
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
+
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
   .feature {
     width: 65.9rem;
     grid-template-columns: 1fr;
+  }
+  .feature-img-box {
+    grid-row: 1;
   }
   .second-feature {
     width: 65.9rem;
     grid-template-columns: 1fr;
   }
+  .feature-info {
+    padding: 7rem 0rem;
+  }
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
+
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
   .reel {
     width: 65.9rem;
     grid-template-columns: 1fr;
   }
+  .reel iframe {
+    width: 51.7rem;
+    height: 24rem;
+  }
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
+
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
   .service {
     width: 65.9rem;
     grid-template-columns: 1fr;
   }
+  .service-text-box p {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .test-md img {
+    width: 4.6rem;
+    height: 4.6rem;
+    transform: translateY(2rem);
+  }
+  .test-md p {
+    font-size: 1.8rem;
+  }
+  .jenny {
+    transform: translateX(1.2rem);
+  }
+  .agenies-help {
+    width: 51.7rem;
+  }
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
 
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
   .portfilio {
     width: 61rem;
   }
   .portfolio-nav-list {
-    gap: 4rem;
+    gap: 3rem;
+  }
+  .portfolio-nav-link:link,
+  .portfolio-nav-link:visited {
+    font-size: 2rem;
   }
   .designs {
     overflow: hidden;
@@ -113,26 +249,14 @@
   .designs img:hover {
     transform: scale(1.04);
   }
-  .second-service {
-    width: 65.9rem;
-  }
-  .agenies-help {
-    grid-template-columns: 2fr 2fr 2fr;
-    width: 24rem;
-  }
-  .help {
-    border-right: none;
-  }
-  /*   .second-service {
-    width: 65.9rem;
-  }
-  .agencies-help {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  } */
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
+
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
   .started {
     width: 40rem;
-    height: 80rem;
+    height: 85rem;
     border-radius: 9px;
     padding: 2rem;
     background-color: #ffd7d1;
@@ -146,7 +270,7 @@
   }
 
   .started-text-box {
-    padding: 2rem;
+    padding: 1.6rem;
     transform: translateY(1.2rem);
   }
   .started-text-box a {
@@ -166,18 +290,31 @@
     font-size: 1.6rem;
   }
   .started-imgone-box {
-    transform: translateY(1rem);
+    transform: translateY(0.6rem);
   }
   .started-imgtwo-box {
-    transform: translateY(-3.5rem);
+    transform: translateY(1rem);
   }
   .started-imgone-box {
     height: 16rem;
   }
-}
-section-footer {
-  width: 65.9rem;
-}
-secondary-footer {
-  width: 65.9rem;
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
+
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
+  .section-footer {
+    width: 65.9rem;
+  }
+  .secondary-footer {
+    width: 65.9rem;
+    gap: 7rem;
+  }
+
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
+  /* ///////////////////////////// END /////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////// */
 }
