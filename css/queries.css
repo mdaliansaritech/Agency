@@ -2,19 +2,38 @@
 /* BELOW 550PX MOBILE NAVIGATION */
 /* ******************************************** */
 @media (max-width: 45rem) {
+  .logo {
+    width: 20rem;
+    height: 6rem;
+  }
+  .icon-nav-mobile {
+    width: 16rem;
+    height: 7rem;
+  }
+  .sub-heading {
+    font-size: 2rem;
+  }
+  .primary-heading {
+    font-size: 6rem;
+    line-height: 6rem;
+  }
+  .hero-text {
+    font-size: 1.6rem;
+  }
+
   body {
     width: 45rem;
   }
   .container {
+    padding-top: 4rem;
     width: 65.9rem;
   }
   .header {
     width: 65.9rem;
     background-color: var(--hero-background);
+    padding: 0;
   }
-  .hero-section {
-    /* width: 61rem; */
-  }
+
   .hero {
     grid-template-columns: 1fr;
     width: 61rem;
